@@ -244,108 +244,109 @@ Our channels
 ]],
     help_text = [[
 Commands list :
-
+کیک کردن:(با ریپلی هم انجام میشود)
 !kick [username|id]
 You can also do it by reply
 
+بن کردن :(با ریپلی هم انجام میشود)
 !ban [ username|id]
 You can also do it by reply
-
+آن بن کردن :(با ریپلی هم انجام میشود)
 !unban [id]
 You can also do it by reply
-
+لیست اعضای گروه:
 !who
 Members list
-
+لیست مدیران گروه:
 !modlist
 Moderators list
-
+مدیر کردن کسی :(فقط برای صاحب گروه)
 !promote [username]
 Promote someone
-
+از مدیر در اوردن:(فقط برای صاحب گروه)
 !demote [username]
 Demote someone
-
+خارج شدن از گروه:
 !kickme
 Will kick user
-
+درباره ی گروه:
 !about
 Group description
-
+تنظیم عکس گروه:
 !setphoto
 Set and locks group photo
-
+تنظیم اسم گروه:
 !setname [name]
 Set group name
-
+قوانین گروه: 
 !rules
 Group rules
-
+نمایش آیدی گروه:
 !id
 return group id or user id
-
+آموزش :
 !help
-
+قفل کردن اسم یا افراد
 !lock [member|name]
 Locks [member|name] 
-
+باز کردن اعضا،اسم،عکس:
 !unlock [member|name|photo]
 Unlocks [member|name|photo]
-
+تعیین قوانین:
 !set rules <text>
 Set <text> as rules
-
+تعیین درباره ی گروه:
 !set about <text>
 Set <text> as about
-
+نمایش تنظیماته اعمال شده
 !settings
 Returns group settings
-
+لینک جدید
 !newlink
 create/revoke your group link
-
+گرفتن لینک
 !link
 returns group link
-
+نمایش آیدی صاحب گروه
 !owner
 returns group owner id
-
+تغییر صاحب گروه
 !setowner [id]
 Will set id as owner
-
+تنطیم میزان حساسیت به اسپم
 !setflood [value]
 Set [value] as flood sensitivity
 
 !stats
 Simple message statistics
-
+ذخیره سازی کلمات
 !save [value] <text>
 Save <text> as [value]
-
+دریافت کلمات
 !get [value]
 Returns text of [value]
-
+تخلیه سازی مدیران،قوانین،متن درباره
 !clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
-
+گرفتن آیدی کاربر
 !res [username]
 returns user id
 "!res @username"
-
+نمایش عملکرد دستورات داده شده
 !log
 will return group logs
-
+نمایش اعضای مسدود شده
 !banlist
 will return group ban list
-
+شما میتوانید هم از بک اسلش (/) و هم از علامت تعجب (!) استفاده کنید
 **U can use both "/" and "!" 
 
-
+فقط مدیران و صاحبان گروه می توانند ربات ادد کنند
 *Only owner and mods can add bots in group
 
-
+فقط مدیران و صاحبان گروه می توانند عمل های کیک،بن،آن بن،عوض کردن لینک ،گرفتن لینک، تنظیم عکس و اسم،قفل کردن و باز کردن،تعیین قوانین  را انجام دهند
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
+فقط صاحب گروه می تواند از تعیین صاحب گروه،ادمین کردن و برکنار کردن،استفاده کند.
 *Only owner can use res,setowner,promote,demote and log commands
 
 ]]
